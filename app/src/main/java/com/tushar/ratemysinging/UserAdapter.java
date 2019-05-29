@@ -19,7 +19,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
 
     @NonNull
     @Override
-    public UserAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+    public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         Context context = viewGroup.getContext();
 
         LayoutInflater inflator = LayoutInflater.from(context);
@@ -30,14 +30,14 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull UserAdapter.ViewHolder viewHolder, int i) {
+    public void onBindViewHolder(UserAdapter.ViewHolder viewHolder, int i) {
         Users user = mUsers.get(i);
 
         TextView textView1 = viewHolder.nameTextView;
-        textView1.setText("User Name: " + user.getName());
+        textView1.setText(user.getName());
 
         TextView textView2 = viewHolder.ageTextView;
-        textView2.setText("Age: " + user.getAge());
+        textView2.setText(user.getAge());
     }
 
     @Override
