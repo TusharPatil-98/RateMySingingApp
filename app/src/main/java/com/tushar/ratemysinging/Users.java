@@ -1,15 +1,5 @@
 package com.tushar.ratemysinging;
 
-import android.util.Log;
-
-import com.google.firebase.Timestamp;
-import com.google.firebase.firestore.FirebaseFirestore;
-
-import java.sql.Date;
-import java.util.ArrayList;
-import java.util.Comparator;
-
-
 public class Users {
     private String mName;
     private int mAge;
@@ -27,6 +17,13 @@ public class Users {
         return String.valueOf(mAge);
     }
 
+    public void setmName(String Name) {
+        mName = Name;
+    }
+
+    public void setmAge(int Age) {
+        mAge = Age;
+    }
 }
 
 /*

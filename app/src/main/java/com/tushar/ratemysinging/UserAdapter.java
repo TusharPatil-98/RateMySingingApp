@@ -34,10 +34,10 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
         Users user = mUsers.get(i);
 
         TextView textView1 = viewHolder.nameTextView;
-        textView1.setText(user.getName());
+        //textView1.setText(user.getName());
 
         TextView textView2 = viewHolder.ageTextView;
-        textView2.setText(user.getAge());
+        //textView2.setText(user.getAge());
     }
 
     @Override
