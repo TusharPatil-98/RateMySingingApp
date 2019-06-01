@@ -1,12 +1,39 @@
 package com.tushar.ratemysinging;
 
+import android.util.Log;
+
+import com.google.firebase.Timestamp;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.sql.Date;
 import java.util.ArrayList;
+import java.util.Comparator;
+
 
 public class Users {
     private String mName;
     private int mAge;
+
+    public Users(String Name, int Age){
+        mName = Name;
+        mAge = Age;
+    }
+
+    public String getmName(){
+        return mName;
+    }
+
+    public String getmAge(){
+        return String.valueOf(mAge);
+    }
+
+}
+
+/*
+public class Users {
+    private String mName;
+    private int mAge;
+    public Timestamp mtimeStamp;
 
     public Users(String name, int age) {
         mName = name;
@@ -25,35 +52,9 @@ public class Users {
     static ArrayList<Users> users = new ArrayList<Users>();
 
     public static ArrayList<Users> createUsersList(int numContacts, FirebaseFirestore db) {
-/*
-
-        for (int i = 1; i <= numContacts; i++) {
-            users.add(new Users("User " + ++lastUserId, i*10));
-        }
-
-
-        db.collection("USER")
-                .orderBy("createdDate", Query.Direction.DESCENDING)
-                .get()
-                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
-                    @Override
-                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
-                        if (task.isSuccessful()) {
-                            for (QueryDocumentSnapshot document : task.getResult()) {
-                                Log.d(TAG, document.getId() + "  => " + document.getData());
-                                String name = String.valueOf(document.get("Name"));
-                                int age = Integer.parseInt(String.valueOf(document.get("Age")));
-                                users.add(new Users("A " + name,age+5));
-
-                            }
-                        } else {
-                            Log.w(TAG, "Error getting documents.", task.getException());
-                        }
-                    }
-                });
-*/
         return users;
     }
 
 
 }
+*/
