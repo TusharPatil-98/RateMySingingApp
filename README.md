@@ -19,10 +19,13 @@ Whenever new user is created only latest 10 will be stored in database. Any old 
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/img4.jpg)
 
 ### Screenshot 5:
+This image shows the database structure used in this application. The User data has three fields namely Name(string), Age(integer)& createdDate(timestamp).
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/backend.png)
 
 ### Screenshot 6:
+This image shows the cloud function 'createUser' which is triggered when any new user is created and maintains latest 10 user data in the database.
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/Backend2.jpg)
 
 ### Screenshot 7:
+This image shows the log entries when new user is created.
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/Backend3.jpg)
