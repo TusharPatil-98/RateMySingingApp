@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             db.collection("USER")
                     .orderBy("createdDate", Query.Direction.DESCENDING)
                     .addSnapshotListener(new EventListener<QuerySnapshot>() {
-                        @Override
+                        @Override   
                         public void onEvent(@Nullable QuerySnapshot snapshots,
                                             @Nullable FirebaseFirestoreException e) {
                             if (e != null) {
