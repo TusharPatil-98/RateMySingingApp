@@ -1,24 +1,24 @@
 # RateMySingingApp
 
-##Screenshots 
+## Screenshots 
 
-###Screenshot 1:
+### Screenshot 1:
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/img1.jpg)
 
-###Screenshot 2:
+### Screenshot 2:
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/img2.jpg)
 
-###Screenshot 3:
+### Screenshot 3:
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/img3.jpg)
 
-###Screenshot 4:
+### Screenshot 4:
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/img4.jpg)
 
-###Screenshot 5:
+### Screenshot 5:
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/backend.png)
 
-###Screenshot 6:
+### Screenshot 6:
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/Backend2.jpg)
 
-###Screenshot 6:
+### Screenshot 7:
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/Backend3.jpg)
