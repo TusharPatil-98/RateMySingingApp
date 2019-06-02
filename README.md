@@ -3,6 +3,7 @@
 ## Screenshots 
 
 ### Screenshot 1:
+Loading screen will be displayed when data is retrieved from Database.
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/img1.jpg)
 
 ### Screenshot 2:
