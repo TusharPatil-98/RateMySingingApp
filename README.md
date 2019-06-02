@@ -7,9 +7,11 @@ Loading screen will be displayed when data is retrieved from Database.
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/img1.jpg)
 
 ### Screenshot 2:
+Data is displayed after it is retrieved from database.
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/img2.jpg)
 
 ### Screenshot 3:
+Data is updated automatically after it is updated in database without refreshing the screen.
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/img3.jpg)
 
 ### Screenshot 4:
