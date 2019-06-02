@@ -15,6 +15,7 @@ Data is updated automatically after it is updated in database without refreshing
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/img3.jpg)
 
 ### Screenshot 4:
+Whenever new user is created only latest 10 will be stored in database. Any old data is automatically removed from database.
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/img4.jpg)
 
 ### Screenshot 5:
