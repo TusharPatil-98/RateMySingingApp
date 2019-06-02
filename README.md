@@ -25,7 +25,3 @@ This image shows the database structure used in this application. The User data 
 ### Screenshot 6:
 This image shows the cloud function 'createUser' which is triggered when any new user is created and maintains latest 10 user data in the database.
 ![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/Backend2.jpg)
-
-### Screenshot 7:
-This image shows the log entries when new user is created.
-![alt text](https://github.com/TusharPatil-98/RateMySingingApp/blob/master/images/Backend3.jpg)
